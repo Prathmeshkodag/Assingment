@@ -83,7 +83,7 @@ function UserTable() {
                     </div>
                 </div>
 
-                {/* Responsive Table */}
+                {/* User  Table */}
                 <div className="w-full max-w-4xl overflow-x-auto H-screen">
                     <table className="table-auto border-collapse border border-slate-400 bg-white shadow-md rounded-md w-full text-sm">
                         <thead>

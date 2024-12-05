@@ -6,7 +6,8 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function UserTab(){
    const [userdata, setUserdata] = useState();
-
+  //  below code get user details from sessionStorage and store to state veraible setUserdata
+  // and user state to show specific user data in  profile section
    useEffect(()=>{
     const data=sessionStorage.getItem('selectedUser');
     setUserdata(JSON.parse(data));
@@ -14,24 +15,25 @@ function UserTab(){
    },[])
 
     const user = {
+      // below code use for store specific data with speficic name or use conditional  OR operator  for data or null value
         id: 1,
-        name:userdata?.name||'',
-        username: userdata?.username||'',
-        email: userdata?.email||'',
+        name:userdata?.name||'not found',
+        username: userdata?.username||'not found',
+        email: userdata?.email||'not found',
         address: {
-          street: userdata?.address.street||'',
-          suite: userdata?.address.suite||'',
+          street: userdata?.address?.street||'not found',
+          suite: userdata?.address?.suite||'not found',
           
-          zipcode: userdata?.address.zipcode||'',
+          zipcode: userdata?.address?.zipcode||'not found',
           geo: {
             lat: "-37.3159",
             lng: "81.1496",
           },
         },
-        phone: userdata?.phone||'',
-        website: userdata?.website||'',
+        phone: userdata?.phone||'not found',
+        website: userdata?.website||'not found',
         company: {
-          name: userdata?.company.name||'',
+          name: userdata?.company?.name||'',
           catchPhrase: "Multi-layered client-server neural-net",
           bs: "harness real-time e-markets",
         },
