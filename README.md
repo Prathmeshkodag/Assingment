@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+Tailwind CSS & Material UI: Tailwind CSS is used for utility-first styling, providing flexibility in design with custom classes. Material UI is integrated for pre-built, customizable UI components, ensuring a consistent look and feel across the app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern JavaScript (ES6+) Features: The project leverages ES6+ features like arrow functions, template literals, destructuring, and spread/rest operators to enhance code readability and maintainability.
 
-## Available Scripts
+React Router DOM: React Router DOM is used to manage client-side routing, allowing users to navigate between different components (pages) without reloading the entire app.
 
-In the project directory, you can run:
+sessionStorage: sessionStorage is used to store data temporarily on the client side, ensuring that the data persists across page refreshes but is cleared once the browser tab is closed.
 
-### `npm start`
+Redux Toolkit: Redux Toolkit is implemented for state management, simplifying the process of handling global state in the app with features like slices, actions, and reducers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fetch API: Fetch API calls are used to make asynchronous requests to external servers or APIs, enabling data retrieval and interaction with backend systems.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Function Components & Hooks: The app is built using React function components, and hooks like useState, useEffect, and useContext are employed to manage state and side effects in a functional way.
 
-### `npm test`
+Conditional Rendering: The project utilizes ternary operators and if conditions for efficient and dynamic rendering of components based on state or props.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vercel Deployment: The frontend is deployed using Vercel, allowing for automatic deployment and scalability with minimal configuration.
