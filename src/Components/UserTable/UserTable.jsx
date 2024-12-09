@@ -100,7 +100,7 @@ function UserTable() {
                         </thead>
                         <tbody>
                             {filteredData.length > 0 ? (
-                                filteredData.map((item, index) => (
+                                filteredData.slice().sort((a, b) => a.name.localeCompare(b.name)).map((item, index) => (
                                     <tr key={index}>
                                         <td className="border border-slate-300 px-2 py-1">{index + 1}</td>
                                         <td className="border border-slate-300 px-2 py-1">{item.name}</td>
